@@ -18,7 +18,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <upstream.url>https://github.com/ajlkn/${project.artifactId}/archive/refs/tags/v1.4.3.zip</upstream.url>
+        <upstream.url>https://github.com/ajlkn/${project.artifactId}/archive/refs/tags/v${version.unsnapshot}.zip</upstream.url>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${project.version}</destDir>
     </properties>
 
